@@ -171,7 +171,7 @@ function useBlueprintValidation({
             if (activeProvider?.id === Providers.JENKINS) {
               errs.push('Jobs: No Job entered.')
             } else {
-              errs.push('Projects: No Project Repsitories entered.')
+              errs.push('Projects: No Project Repositories entered.')
             }
           }
           if (
